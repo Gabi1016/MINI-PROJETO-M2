@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #99b2d3; /* Tom de papel antigo */
+    margin: 20px;
+    color: #020000; /* Texto escuro */
+}
+
+.container {
+    background-color: #fcfcfc;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #023a47; /* Marrom terra */
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #f80000;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 16px);
+    padding: 10px;
+    border: 1px solid #0b35a8;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ec0f0f; /* Marrom tijolo */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #13158b; /* Marrom sela */
+}
+
+.lista-musicas {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #e0cba8; /* Bege claro */
+    border-radius: 10px;
+    background-color: #fdf5e6; /* Bege mais claro */
+}
+
+#musicasCadastradas {
+    list-style: none;
+    padding: 0;
+}
+
+.musica-card {
+    border: 1px solid #f80909; /* Marrom areia */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #01064d; /* Amarelo claro */
+    display: flex;
+    flex-direction: column;
+}
+
+.musica-titulo {
+    margin-top: 0;
+    color: #98b0ff; /* Marrom sela */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.musica-info {
+    margin-left: 10px;
+    color: #ff0000;
+    margin-top: 8px;
+}
+
+.musica-info p {
+    margin: 6px 0;
+}
+
+.musica-info button {
+    background-color: #4CAF50; /* Verde */
+    margin-right: 8px;
+}
+
+.musica-info button:hover {
+    background-color: #45a049;
+}
+
+.musica-info button:last-child {
+    background-color: #000c77; /* Vermelho */
+}
+
+.musica-info button:last-child:hover {
+    background-color: #ff0000;
+}

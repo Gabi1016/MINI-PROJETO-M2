@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Músicas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastrar Música</h1>
+        <form id="cadastroMusicaForm">
+            <div class="form-group">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" required>
+            </div>
+            <div class="form-group">
+                <label for="artista">Artista:</label>
+                <input type="text" id="artista" name="artista" required>
+            </div>
+            <div class="form-group">
+                <label for="album">Álbum:</label>
+                <input type="text" id="album" name="album">
+            </div>
+            <div class="form-group">
+                <label for="genero">Gênero:</label>
+                <input type="text" id="genero" name="genero">
+            </div>
+            <div class="form-group">
+                <label for="anoLancamento">Ano de Lançamento:</label>
+                <input type="number" id="anoLancamento" name="anoLancamento">
+            </div>
+            <button type="button" id="btn-salvar-musica">Adicionar Música</button>
+            <button type="button" id="btn-listar-musicas">Listar Músicas</button>
+        </form>
+
+        <div id="container-musicas" class="lista-musicas">
+            <h2>Músicas Cadastradas</h2>
+            <ul id="musicasCadastradas">
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
